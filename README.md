@@ -6,16 +6,16 @@ This project analyzes tweets to determine sentiment, helping in opinion mining, 
 It processes text data, applies TF-IDF vectorization, and uses Logistic Regression to classify tweets.
 
 # Technologies Used
-->Python
-->Pandas, NumPy – Data handling
-->NLTK – Text preprocessing (stopword removal, stemming)
-->Scikit-learn – ML model (Logistic Regression, TF-IDF)
-->Google Colab – Model training & experimentation
+Python
+Pandas, NumPy – Data handling
+NLTK – Text preprocessing (stopword removal, stemming)
+Scikit-learn – ML model (Logistic Regression, TF-IDF)
+Google Colab – Model training & experimentation
 
 # Dataset
--> The dataset used for training is **Sentiment140** from Kaggle.
--> Contains tweets labeled as positive (1) or negative (0). .  
--> 🔗 [Download Sentiment140 Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)
+The dataset used for training is **Sentiment140** from Kaggle.
+Contains tweets labeled as positive (1) or negative (0).   
+🔗 [Download Sentiment140 Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)
 
 # Model Training & Workflow
 Data Preprocessing:
@@ -37,7 +37,9 @@ Run all cells to train and test the model.
 
 # Future Improvements
  Improve accuracy using Deep Learning (LSTMs, BERT).
+ 
  Handle sarcasm and negation better.
+ 
  Deploy the model as a web app using Flask/Streamlit.
 
 # Connect With Me
